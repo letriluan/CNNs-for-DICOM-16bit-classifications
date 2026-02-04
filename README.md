@@ -95,7 +95,7 @@ This project evaluates both **standard CNN architectures** and **proposed modifi
 
 ### Proposed Improvements
 - Architectural adjustments to convolutional blocks
-- Optimised input resolution for medical images
+- Systematic evaluation of input resolutions (112×112, 224×224, 512×512) for medical images
 - Modified training strategies to improve convergence speed and accuracy
 
 All models were trained and evaluated under the same preprocessing conditions for fair comparison.
@@ -122,3 +122,17 @@ across different abnormality classes.
 - Conducted systematic comparisons between standard CNNs and proposed improvements
 - Delivered a reproducible and well-documented experimental framework
 
+---
+## Limitations
+
+- The dataset size is limited compared to large-scale clinical deployments
+- Labels are dependent on publicly available annotations
+- The models are evaluated for research purposes only and are not clinically validated
+
+These limitations provide opportunities for further research and improvement.
+
+---
+## Disclaimer
+
+This project is intended **for research and educational purposes only**.
+It is **not approved for clinical diagnosis or medical decision-making**.
